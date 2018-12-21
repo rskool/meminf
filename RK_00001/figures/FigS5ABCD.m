@@ -1,0 +1,6 @@
+%% Fig S5A-D: tDCS simulation
+% Run the below code from within the roastV2.7 directory, downloaded from
+% https://www.parralab.org/roast/ as referenced in Huang et al., 2017
+roast('nyhead',{'P8',1,'Fp1',-1},'conductivities',struct('white',0.11, ...
+    'gray',0.21,'csf',0.53,'bone',0.02,'skin',0.90),'electype', ...
+    {'pad','pad'},'elecsize',{[70 50 5],[70 50 5]}, 'elecori',{'si','lr'})
