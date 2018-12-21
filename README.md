@@ -10,3 +10,5 @@ Dependencies for the task:
 - Psychtoolbox (https://www.psychtoolbox.org)
 
 The activation maps (nifti format) and the Matlab code to generate the figures is contained in the 'figures' folder. Figures are generated using the data files in the 'mat_data' folder. In addition, the full trial-by-trial RDMs are included (fullRDMs.mat).
+
+The behavioural tasks used in the experiment can be run through the 'run_task.m' file after changes the experimental variables in this file accordingly. Prior to running the task, the root folder in the relevant task folder should be modified (e.g. in associative_test_learning.m).
